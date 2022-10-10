@@ -1,0 +1,20 @@
+08:54:30 **** Incremental Build of configuration Debug for project Hand_UD_Rotate ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F303x8 -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Hand_UD_Rotate.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\dorag\STM32CubeIDE\workspace_1.1.0\CatchRobo2021\Hand_UD_Rotate\STM32F303K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Hand_UD_Rotate.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Hand_UD_Rotate.elf
+ 
+arm-none-eabi-objdump -h -S  Hand_UD_Rotate.elf  > "Hand_UD_Rotate.list"
+arm-none-eabi-objcopy  -O binary  Hand_UD_Rotate.elf  "Hand_UD_Rotate.bin"
+arm-none-eabi-size   Hand_UD_Rotate.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17596	     24	   1856	  19476	   4c14	Hand_UD_Rotate.elf
+Finished building: default.size.stdout
+ 
+Finished building: Hand_UD_Rotate.bin
+ 
+Finished building: Hand_UD_Rotate.list
+ 
+
+08:54:34 Build Finished. 0 errors, 0 warnings. (took 3s.783ms)
+

@@ -1,0 +1,10 @@
+main.c:64:6:Filter_Init	8	static
+main.c:96:6:HAL_CAN_RxFifo0MsgPendingCallback	56	static
+main.c:150:6:Rotate	8	static
+main.c:172:6:HAL_TIM_PeriodElapsedCallback	16	static
+main.c:245:5:main	8	static
+main.c:299:6:SystemClock_Config	72	static
+main.c:337:13:MX_CAN_Init	8	static
+main.c:374:13:MX_TIM2_Init	40	static
+main.c:419:13:MX_GPIO_Init	40	static
+main.c:458:6:Error_Handler	4	static,ignoring_inline_asm

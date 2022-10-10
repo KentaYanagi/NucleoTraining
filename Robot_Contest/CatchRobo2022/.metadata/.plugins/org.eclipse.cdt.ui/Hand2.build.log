@@ -1,0 +1,20 @@
+14:15:05 **** Incremental Build of configuration Debug for project Hand2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F303x8 -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Hand2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\dorag\STM32CubeIDE\workspace_1.1.0\CatchRobo2021\Hand2\STM32F303K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Hand2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Hand2.elf
+ 
+arm-none-eabi-objdump -h -S  Hand2.elf  > "Hand2.list"
+arm-none-eabi-objcopy  -O binary  Hand2.elf  "Hand2.bin"
+arm-none-eabi-size   Hand2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17564	     24	   1856	  19444	   4bf4	Hand2.elf
+Finished building: default.size.stdout
+ 
+Finished building: Hand2.bin
+ 
+Finished building: Hand2.list
+ 
+
+14:15:09 Build Finished. 0 errors, 0 warnings. (took 4s.419ms)
+

@@ -1,0 +1,14 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:stepping_morter_test Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Shooter Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Belt_And_Hand_Interval Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Hand3 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Hand_UD_Rotate Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:MainBoard,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Hand2 Debug
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Belt_And_Hand_Interval\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Belt_And_Hand_Interval\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Hand2\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Hand2\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:MainBoard/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:MainBoard/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Shooter\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:stepping_morter_test\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:stepping_morter_test\ Debug/activeLaunchTarget=null\:---

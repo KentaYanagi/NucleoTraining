@@ -1,0 +1,10 @@
+14:28:34 **** Incremental Build of configuration Debug for project Hand3 ****
+make -j8 all 
+arm-none-eabi-size   Hand3.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16800	     24	   1864	  18688	   4900	Hand3.elf
+Finished building: default.size.stdout
+ 
+
+14:28:35 Build Finished. 0 errors, 0 warnings. (took 493ms)
+

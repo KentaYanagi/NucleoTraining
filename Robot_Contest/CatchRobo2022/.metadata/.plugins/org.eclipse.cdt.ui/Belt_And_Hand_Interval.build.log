@@ -1,0 +1,10 @@
+03:53:12 **** Incremental Build of configuration Debug for project Belt_And_Hand_Interval ****
+make -j8 all 
+arm-none-eabi-size   Belt_And_Hand_Interval.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18128	     28	   1932	  20088	   4e78	Belt_And_Hand_Interval.elf
+Finished building: default.size.stdout
+ 
+
+03:53:13 Build Finished. 0 errors, 0 warnings. (took 553ms)
+
